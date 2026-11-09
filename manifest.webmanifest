@@ -1,0 +1,24 @@
+{
+  "name": "تطبيق الموظف — الموارد البشرية والحضور",
+  "short_name": "الموظف",
+  "description": "تسجيل الحضور والانصراف، الطلبات والإجازات، التعميمات، والرزنامة — مع مزامنة حيّة على شبكة المؤسسة.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/mobile.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0f19",
+  "theme_color": "#0b0f19",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "/app-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/app-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/maskable-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "الرئيسية", "short_name": "الرئيسية", "url": "/mobile.html#home" },
+    { "name": "الطلبات", "short_name": "الطلبات", "url": "/mobile.html#requests" },
+    { "name": "التعميمات", "short_name": "التعميمات", "url": "/mobile.html#circulars" }
+  ]
+}

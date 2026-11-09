@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "rewrites": [
+    { "source": "/admin", "destination": "/admin.html" },
+    { "source": "/desktop", "destination": "/desktop.html" },
+    { "source": "/mobile", "destination": "/mobile.html" }
+  ]
+}
